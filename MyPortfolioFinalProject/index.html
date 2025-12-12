@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Lhorelyn Dalaguit - Portfolio</title>
+</head>
+<body>
+    <div class="page-wrapper">
+       <header class="main-header">
+    <img class="logo" src="logo.png" alt="Logo" />
+    
+    <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="main-nav" class="home-nav nav-container" aria-label="Main navigation">
+        <a class="nav-item" href="#home">Home</a>
+        <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="#featured">Featured</a>
+        <a class="nav-item" href="#contact">Contact</a>
+    </nav>
+    
+    <div class="header-spacer"></div>
+</header>
+
+        <section class="page-section home-section" id="home">
+            <div class="content-container">
+                <div class="home-text">
+                    <p class="text-wrapper-2">Hello It’s Me</p>
+                    <h1 class="lhorelyn-dalaguit">
+                        <span class="span">Lhorelyn</span>
+                        <span class="text-wrapper-3">Dalaguit</span>
+                    </h1>
+                    <p class="text-wrapper-4">BSIT 2 -B</p>
+                    <p class="i-like-designing">
+                        I like designing using Figma and Website, also learning new
+                        things about technology. I want to improve my skill and create simple, nice design.
+                    </p>
+                    <div class="action-buttons">
+                        <a href="#about" class="button button-primary">About</a>
+                        <a href="#contact" class="button button-primary">Contact</a>
+                    </div>
+                </div>
+                <div class="home-image-container">
+                    <div class="ellipse-bg-main"></div>
+                    <div class="ellipse-bg-secondary"></div>
+                    <img class="profile-image" src="mypic.png" alt="Lhorelyn Dalaguit" />
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section about-section" id="about">
+            <div class="content-container about-grid">
+                <div class="about-info-card">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="info-list">
+                        <p><strong>Name :</strong> LHORELYN DALAGUIT</p>
+                        <p><strong>Age :</strong> 19 yrs old</p>
+                        <p><strong>Birthday :</strong> SEPTEMBER 03, 2006</p>
+                        <p><strong>Address :</strong> BANGBANG CORDOVA, CEBU</p>
+                    </div>
+                </div>
+                
+                <div class="about-image-wrapper">
+                    <img class="about-profile-img" src="mypic.png" alt="Lhorelyn" />
+                </div>
+                
+                <div class="hobbies-grid">
+                    <div class="hobby-item">
+                        <img class="hobby-img" src="wattpad(1).jpg" alt="Reading Wattpad" />
+                        <p class="hobby-caption">Reading</p>
+                    </div>
+                    <div class="hobby-item">
+                        <img class="hobby-img" src="listening music.jpg" alt="Listening to Music" />
+                        <p class="hobby-caption">Listening to Music</p>
+                    </div>
+                    <div class="hobby-item">
+                        <img class="hobby-img" src="watching.png" alt="Watching" />
+                        <p class="hobby-caption">Watching Movies</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ellipse-bg-bottom"></div>
+        </section>
+
+        <section class="page-section featured-section" id="featured">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <a href="https://www.figma.com/proto/yaXh15ESmrxKOwixmGYezv/My-final-Portfolio?node-id=356-116&t=WmVF8tdxO2i8Nx8j-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=314%3A51" target="_blank" class="project-card">
+                    <img class="project-image" src="portfolio.png" alt="Personal Portfolio Website" />
+                    <div class="project-description">
+                        <p>This Website is a personal portfolio I created using HTML and CSS. It showcases my skills in web development, particularly in designing clean and responsive interfaces.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.figma.com/proto/lng1NYWvyoUfhVfc3gWUJq/SIAP?node-id=1-3&starting-point-node-id=1%3A3&t=beTJxJKwWK2KW4Mc-1" target="_blank" class="project-card">
+                    <img class="project-image" src="BudgetMeal.png" alt="Laptop Business Website" />
+                    <div class="project-description">
+                        <p>This is a laptop business website I created using HTML and CSS. It shows store information and the available services. Users can also book an appointment if they want to buy a laptop.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.figma.com/proto/PwiN0dRtwU5RnTf6aHDdU0/Infograpic--SP-?node-id=79-3&t=k1EGeRvSE1VEXNVc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" class="project-card">
+                    <img class="project-image" src="infographic.png" alt="Infographic Figma Design" />
+                    <div class="project-description">
+                        <p>This is an art-themed website I made using Figma. It shows different art styles in a carousel that you can scroll through. I created this to practice designing creative and interactive web pages.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ellipse-bg-top"></div>
+        </section>
+
+        <section class="page-section contact-section" id="contact">
+            <div class="contact-content-grid">
+                <div class="contact-form-wrapper">
+                    <h2 class="contact-heading">Contact</h2>
+                    <form id="contactForm" action="https://formspree.io/f/xyzpqrst" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name :</label>
+                            <input type="text" name="name" id="name" class="form-input" placeholder="Your name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email :</label>
+                            <input type="email" name="email" id="email" class="form-input" placeholder="you@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Messages :</label>
+                            <textarea name="message" id="message" class="form-textarea" placeholder="Write your message..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="send-button">SEND</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-social">
+                    <div class="contact-info-item">
+                        <img src="email.png" alt="Email Icon" class="contact-icon" />
+                        <p class="info-text">dalaguitlhorelyn408@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <img src="call.png" alt="Phone Icon" class="contact-icon" />
+                        <p class="info-text">09512889486</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <img src="location.png" alt="Location Icon" class="contact-icon" />
+                        <p class="info-text">BangBang Cordova, Cebu</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/lhorelyn.dalaguit" target="_blank" class="social-link">
+                            <img src="facebook.png" alt="Facebook" class="social-icon" />
+                        </a>
+                        <a href="https://www.instagram.com/lyn_wyx?igsh=eDFiam9wcGN1bHE3" target="_blank" class="social-link">
+                            <img src="instagram.png" alt="Instagram" class="social-icon" />
+                        </a>
+                        <a href="https://x.com/_hylynxxx?t=s9_3ZEB2GDx8XZQ809c3_g&s=07" target="_blank" class="social-link">
+                            <img src="twitter.png" alt="Twitter/X" class="social-icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ellipse-bg-bottom"></div>
+        </section>
+    </div>
+
+    <script>
+        // Toggle mobile menu visibility
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.getElementById('main-nav');
+        
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            nav.classList.toggle('is-open');
+        });
+
+        // Hide menu when a link is clicked (for single-page navigation)
+        document.querySelectorAll('.nav-item').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    nav.classList.remove('is-open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+
+        // Form submission logic
+        document.getElementById("contactForm").addEventListener("submit", async function(event) {
+            event.preventDefault();
+
+            const form = event.target;
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch(form.action, {
+                    method: form.method,
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    alert("Thank you for your message!");
+                    form.reset();
+                } else {
+                    // Fallback for Formspree issues or non-200 responses
+                    alert("Thank you for your message. We will be back soon!.");
+                }
+            } catch (error) {
+                // Handle network errors
+                alert("An error occurred while submitting. Please try again later.");
+            }
+        });
+    </script>
+</body>
+</html>
